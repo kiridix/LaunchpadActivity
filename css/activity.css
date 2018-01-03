@@ -1,0 +1,379 @@
+@import url(http://fonts.googleapis.com/css?family=Geo&subset=latin);
+
+#main-toolbar #activity-button {
+  background-image: url(../activity/activity-icon.svg);
+}
+#main-toolbar #exit {
+  background-image: url(../images/exit.svg);
+}
+#nettest {
+ background-color: #c0c0c0;
+ text-align: center;
+ margin-top: 10%;
+}
+#game {
+ background-color: rgba(192,192,192, 0);
+ display:none;
+}
+p {
+    font-family: 'Geo', serif;
+    font-size: 40px;
+    -webkit-font-smoothing: none;
+}
+#createQuiz{
+	display: none;
+}
+#inputQuestion{
+	text-align: center;
+	padding-top: 10px;
+	font-family: 'Geo', serif;
+    font-size: 32px;
+    -webkit-font-smoothing: none;
+}
+#Combo{
+	width: 100px;
+	border-color: grey !important;
+}
+#errorCampos{
+	color: red;
+	display: none;
+}
+#nextQuestion{
+	display: none;
+	text-align: right;
+	margin-right: 40px;
+	margin-top: 40px;
+
+}
+.contenedor { border:1px solid Red; }
+.outer-centrado { float:right; right:50%; } 
+.inner-centrado { float:left; right:-50%; }
+.clear { clear:both; }
+#screenTitle {
+	text-align: center;
+	font-family: 'Geo', serif;
+    font-size: 64px;
+}
+#categoriesboxes{
+	text-align: center;
+
+}
+#createQuestion{
+	width: 93%;
+	text-align: center;
+	font-family: 'Geo', serif;
+    font-size: 28px;
+    -webkit-font-smoothing: none;
+    display: inline-block;
+}
+#NextQuestionButton{
+	text-align: center;
+	width: 250px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: rgba(192,192,192, 0.8);
+	border-style: solid;
+	border-width: 3px;
+	border-color: grey;
+	display: inline-block;
+	font-family: 'Geo', serif;
+    font-size: 22px;
+    -webkit-font-smoothing: none;
+}
+#NextQuestionButton:hover{
+	border-color: green;
+	background-color: #c0c0c0;
+}
+.categoryBox{
+	text-align: center;
+	width: 21%;
+	margin: 10px;
+	border-radius: 15px;
+	padding-left: 45px;
+	padding-right: 45px;
+	background-color: rgba(192,192,192, 0.8);
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	display: inline-block;
+	padding-top: 8%;
+	padding-bottom: 8%;
+	font-family: 'Geo', serif;
+    font-size: 22px;
+    -webkit-font-smoothing: none;
+}
+.categoryBox:hover{
+	border-color: grey;
+	background-color: #c0c0c0;
+}
+#categories{
+	display: none;
+}
+#title{
+	margin-top: 10%;
+}
+#logo{
+	font-family: 'Geo', serif;
+    font-size: 64px;
+}
+#logoScreen{
+	margin-top: 15%;
+	text-align: center;
+	display: inherit;
+}
+
+#canvas{
+	background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.switch {
+	margin-bottom: 0px;
+	padding: 5px;
+	background-color: #808080;
+	text-align: center;
+	width: 49%;
+	display: inline-block;
+} 
+.switch:hover {
+	background-color: #c0c0c0;
+}
+#asd {
+	display: none;
+		border-color: white;
+	border-width: 2px;
+	background: #9df871;
+
+}
+#iniciar {
+	margin-top: 120px;
+	background-color: #c0c0c0;
+	border-radius: 15px;
+	display :  inline-block;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+    border-radius: 50%;
+    padding: 60px;
+    font-size: 30px;
+}
+#iniciar:hover {
+	border-width: 2px;
+	border-color: #9df871;
+}
+#iniciar:focus {
+	border-width: 2px;
+	border-color: #9df871;
+}
+#load {
+	padding: 0px;
+	margin-top: 0px;
+	display: none;
+}
+#ip {
+	font-size: 35px;
+}
+#data {
+	font-size: 35px;
+}
+#error{
+	padding-left: 50px;
+	text-align: right;
+	float: left;
+	display: none;
+	color:red;
+}
+#question {
+	text-align: center;
+	font-family: 'Geo', serif;
+    font-size: 32px;
+	background-color: rgba(192,192,192, 0.8);
+	margin-top: 10px;
+}
+#questionCus{
+	text-align: center;
+	font-family: 'Geo', serif;
+    font-size: 32px;
+	background-color: rgba(192,192,192, 0.8);
+	margin-top: 10px;
+}
+.inputAnswer{
+	font-family: 'Geo', serif;
+    font-size: 28px;
+    text-align: center;
+    -webkit-font-smoothing: none;
+    display: inline-block;
+    width: 45% !important;
+    margin:5px !important;
+}
+.createAnswers{
+	padding-top: 3%; 
+	display: none;
+	text-align: center
+}
+.createAnswer{
+	font-family: 'Geo', serif;
+    font-size: 28px;
+    -webkit-font-smoothing: none;
+    display: inline-block;
+    width: 50%;
+}
+.inputAnswers{
+	text-align: center;
+	display: none;
+}
+#answers{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 50px;
+}
+.answer{
+	text-align: center;
+	width: 35%;
+	margin: 5px;
+	border-radius: 15px;
+	padding-left: 45px;
+	padding-right: 45px;
+	background-color: rgba(192,192,192, 0.8);
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	display: inline-block;
+	padding-top: 2.6%;
+	padding-bottom: 2.6%;
+	font-family: 'Geo', serif;
+    font-size: 28px;
+    -webkit-font-smoothing: none;
+}
+.answer:hover{
+	border-color: white;
+	background-color: grey;
+}
+#finishGame{
+	margin-top: 10%;
+	text-align: center;
+	display: none;
+}
+#score{
+	margin-top: 30px;
+	background-color: rgba(192,192,192, 0.8)
+}
+#playAgain{ 
+	padding-bottom: 5px;
+	border-radius: 15px;
+	padding-left: 45px;
+	padding-right: 45px;
+	display: inline-block;
+	text-align: center;
+	font-family: 'Geo', serif;
+    font-size: 28px;
+    color: black;
+    margin-top: 21%;
+    display: inline-block;
+    background-color: rgba(192,192,192, 0.8)
+ }
+ #playAgain:hover {
+ 	border-color: white;
+	background-color: grey;
+ }
+ #restartGame{
+ 	padding-bottom: 5px;
+	border-radius: 15px;
+	padding-left: 45px;
+	padding-right: 45px;
+	display: inline-block;
+	text-align: center;
+	font-family: 'Geo', serif;
+    font-size: 28px;
+    color: black;
+    margin-top: 21%;
+    display: inline-block;
+    background-color: rgba(192,192,192, 0.8)
+ }
+ #restartGame:hover {
+ 	border-color: white;
+	background-color: grey;
+ }
+#finishQuestion{ 
+	display: none;
+	background-color: rgba(192,192,192, 0.8);
+	font-family: 'Geo', serif;
+    font-size: 32px;
+}
+#count{
+	float: left;
+	padding-left: 50px;
+	display: none;
+}
+#shareOnFacebook {
+	padding-bottom: 5px;
+	border-radius: 100px;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: inline-block;
+	text-align: left;
+	font-family: 'Geo', serif;
+    font-size: 28px;
+    color: black;
+    margin-top: 30px;
+    display: inline-block;
+    background-color: #3b5998;
+
+}
+#shareOnFacebook:hover {
+	background-color: #8b9dc3;
+	}
+button:focus {
+	border-color: #9df871;
+}
+#mainselection select {
+   border: 0;
+   color: green;
+   background: transparent;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 2px 10px;
+   color: black;
+   width: 378px;
+   *width: 350px;
+   -webkit-appearance: none;
+}
+
+#mainselection {
+	margin-right: 20px;
+   overflow:hidden;
+   width: 50px;
+   -moz-border-radius: 9px 9px 9px 9px;
+   -webkit-border-radius: 9px 9px 9px 9px;
+   border-radius: 9px 9px 9px 9px;
+   box-shadow: 1px 1px 11px #330033;
+}
+#download{
+	text-align: center;
+	width: 35%;
+	margin-top: 20%;
+	border-radius: 15px;
+	padding-left: 45px;
+	padding-right: 45px;
+	background-color: rgba(192,192,192, 0.8);
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	display: inline-block;
+	padding-top: 2.6%;
+	padding-bottom: 2.6%;
+	font-family: 'Geo', serif;
+    font-size: 28px;
+    -webkit-font-smoothing: none;
+}
+#download:hover{
+	border-color: white;
+	background-color: grey;
+}
+#customQuizDownload{
+	text-align: center;
+	display: none;
+}
