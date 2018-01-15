@@ -17,6 +17,9 @@
 <script src="libraries/p5.dom.js" type="text/javascript"></script>
 <script src="libraries/tone.js" type="text/javascript"></script>
 <script src="js/piano.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/popup.js" type="text/javascript"></script>
+
 </head>
 
 <body>
@@ -31,9 +34,26 @@
 
 <!-- The content of your activity goes inside the canvas -->
 <div id="canvas">
+  
 
+<div id="contenedor" style="display:none">
+
+<div id="flotante"><h1>instructions</h1>
+  <p id="instructions">Use numpad keys to play !<p>
+  <img src="images/numpad.jpg" width="100px" height="100px">
+  <p id="instructions">Press + and - to change the sound kit</p>
+  <p id="instructions" style="color: red"> If numpad doesent work, be sure of numpad is ON</p>
+<h3><a onClick="flotante(2)">Close</a></h3>
+</div>
+
+<div id="fondo"></div>
+
+</div>
+<div id="header">
+  <img id="help" src="images/help.svg" onclick="flotante(1)">
   <p id="Title">Launch-Pad</p>
-      
+  
+</div>
     <div class="toggle" onclick="Tap(0);juego1[juego].playclip() "> <!-- Button 1 -->     
       </div>  
 
@@ -67,11 +87,14 @@
       <div>
       </div>
       <div id="howto">
-      <h1 id="instructions">Press + and - to change selected kit : 0 </h1>
+      <h1 id="instructions">Sound kit : 0 </h1>
       </div>
       <script type="text/javascript">
+        function abrir() { 
+          open('pagina.html','','top=300,left=300,width=300,height=300') ; 
+        } 
         function kitnumber(num){
-        document.getElementById("instructions").innerHTML ="Press + and - to change selected kit : " + num;
+        document.getElementById("instructions").innerHTML ="Sound kit : " + num;
         }
       </script>
 </body>

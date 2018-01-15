@@ -86,11 +86,6 @@ var E1 = crearSonido('libraries/1/1.wav');
 var E2 = crearSonido('libraries/1/2.wav');
 var E3 = crearSonido('libraries/1/3.wav');
 var E4 = crearSonido('libraries/1/4.wav');
-var E5 = crearSonido('libraries/1/5.wav');
-var E6 = crearSonido('libraries/1/6.wav');
-var E7 = crearSonido('libraries/1/7.wav');
-var E8 = crearSonido('libraries/1/8.wav');
-var E9 = crearSonido('libraries/1/9.wav');
 
 
 var juego1 = [];
@@ -109,11 +104,11 @@ juego1 = [test1, A1, B1, C1, D1, E1]
 juego2 = [test2, A2, B2, C2, D2, E2]
 juego3 = [test3, A3, B3, C3, D3, E3]
 juego4 = [test4, A4, B4, C4, D4, E4]
-juego5 = [test5, A5, B5, C5, D5, E5]
-juego6 = [test6, A6, B6, C6, D6, E6]
-juego7 = [test7, A7, B7, C7, D7, E7]
-juego8 = [test8, A8, B8, C8, D8, E8]
-juego9 = [test9, A9, B9, C9, D9, E9]
+juego5 = [test5, A5, B5, C5, D5]
+juego6 = [test6, A6, B6, C6, D6]
+juego7 = [test7, A7, B7, C7, D7]
+juego8 = [test8, A8, B8, C8, D8]
+juego9 = [test9, A9, B9, C9, D9]
 }
 
 var looper = 0;

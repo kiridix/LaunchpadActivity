@@ -1,6 +1,6 @@
 #Title{
+  margin-left: 45px;
 	font-size: 1.6em;
-	text-align: center;
 	color: #ffffff;
 }
 .Pad{
@@ -21,10 +21,20 @@
   background: url(https://s.cdpn.io/1715/dark_stripes.png);
   text-align: center;
 }
+#header{
+  text-align: center;
+}
 #howto{
-  float: left;
-  padding-left: 28%;
+  text-align: center;
   color: white;
+}
+#help{
+  display: inline-block;
+  float: right;
+  margin-right: 5px;
+}
+#instructionsButton{
+  float: right;
 }
 #kit{
   float: right;
@@ -40,6 +50,9 @@
   margin-top: -80px;
   width: 100%;
   top: 50%;
+}
+#instructions{
+  font-size: 22px;
 }
 
 .toggle {
@@ -83,4 +96,10 @@
   height: 100%;
   width: 100%;
   color: rgba(0, 0, 0, 0.4);
+}
+#fondo {
+  width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 990;opacity: 0.8;background:#000;
+}
+#flotante {
+  z-index: 999; border: 8px solid #fff; margin-top: -756px; margin-left: -153px; top: 50%; left: 50%; padding: 12px; position: fixed; width: 265px; background-color: #fff; border-radius: 3px;
 }
